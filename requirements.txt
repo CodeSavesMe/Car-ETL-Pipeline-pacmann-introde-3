@@ -1,0 +1,10 @@
+luigi
+pandas
+numpy
+SQLAlchemy
+psycopg2-binary
+loguru
+python-dotenv
+playwright
+beautifulsoup4
+tqdm

@@ -1,0 +1,62 @@
+# --- 1) Python artifacts ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Byte-compiled / optimized / DLL files
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# --- 2) Project-specific directories ---
+
+# Logs
+logs/
+*.log
+
+# Scraped / generated data
+data/raw_html/
+data/parsed/
+data/transformed/
+data/inserted/
+
+# Screenshots from Playwright
+screenshots/
+
+# Local Postgres data (if you mount host volume here)
+postgres/data/
+postgres/*.log
+
+# --- 3) Environment / secrets ---
+.env
+.env.*
+*.env
+
+# --- 4) IDE / editor configs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Others
+*.sqlite
+*.ipynb
